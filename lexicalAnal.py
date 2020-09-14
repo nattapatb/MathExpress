@@ -459,7 +459,7 @@ def lexAnal(latex, verbosity):
                             idx += 1
 
                     elif pattern == 'cases':
-                        print(pattern)
+                        #print(pattern)
                         tokens.append(sound['cases'])
 
                         idx += 1
