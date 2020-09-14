@@ -2,7 +2,6 @@
 
 import string
 #from gtts import gTTS
-from pydub import AudioSegment
 
 symbolTags = {\
 0:set(),\
@@ -972,23 +971,3 @@ def lexAnal(latex, verbosity):
             continue
 
     return tokens
-
-def composeSpeech(soundList, speed=1.0, silenceDuration = 200):
-    print(soundList)
-    sound = AudioSegment.empty()
-    for soundName in soundList:
-        #print(soundName)
-        if soundName == ' ':
-            sound += AudioSegment.silent(duration=silenceDuration)
-        else:
-            sound = sound + AudioSegment.from_mp3("../gTTS_sounds_wav/" + soundName + '.wav')
-    if speed > 1.0:
-        sound = sound.speedup(playback_speed=speed)
-    sound.export("../example.wav", format="wav")
-'''
-cnt = 0
-while True:
-    cnt += 1
-    s = input().strip()
-    composeSpeech(s)
-'''
