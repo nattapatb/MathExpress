@@ -31,7 +31,6 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \frac{\log{a}}{\log{b}}= \log_{b}{a}
 S_100 = \sum_{i=1}^{100} a_i
 \sum_{a,b \in S} a + b
-********* \sum_{k=0}^{\infty} \frac{x^k}{k!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots
 \int_{-2}^{2} \frac{x^3}{4} + 2 \,dx
 \int \ln{w} \,dw = \frac{1}{w} + c
 \iint_{S} \mu(x,y) \,dx \,dy
