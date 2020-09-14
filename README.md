@@ -1,4 +1,6 @@
 # MathExpress
+MathExpress is a Thai mathematical reader which produces Thai readings from corresponding LaTeX mathematical expressions.  
+For example, a LaTeX expression `\frac{1 + 2}{3 + 4}` will be read out as `เริ่ม เศษ   หนึ่ง   บวก   สอง จบ เศษ   ส่วน   เริ่ม ส่วน   สาม   บวก   สี่ จบ เศษส่วน`.
 
 ## Prerequisites
 Python 3.x is necessary.
