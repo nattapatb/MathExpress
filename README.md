@@ -14,7 +14,7 @@ python [filename] [verbosity]
 
 There are three levels of verbosity: `superbrief`, `brief`, `verbose`. In general `brief` is recommended.
 
-Filename should consist of several lines of LaTeX mathematical expressions. Any Non-LaTeX term will be left unprocessed.
+`filename` refers to the filename of a expression list which consists of several lines of LaTeX mathematical expressions. Any Non-LaTeX term will be left unprocessed.
 
 ## Example
 
